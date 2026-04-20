@@ -1,0 +1,1438 @@
+{
+  "exams": [
+    {
+      "id": "jee-main",
+      "name": "JEE Main 2026",
+      "shortName": "JEE Main",
+      "color": "#3b82f6",
+      "icon": "⚛️",
+      "sessions": [
+        {
+          "name": "Session 1",
+          "dates": "Jan 21 – Jan 30, 2026",
+          "isoStart": "2026-01-21"
+        },
+        {
+          "name": "Session 2",
+          "dates": "Apr 2 – Apr 9, 2026",
+          "isoStart": "2026-04-02"
+        }
+      ],
+      "nextDate": "2026-04-02",
+      "registrationDeadline": "Mar 22, 2026",
+      "registrationDeadlineIso": "2026-03-22",
+      "conductedBy": "NTA",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "totalMarks": 300,
+      "duration": "3 hours",
+      "description": "National level engineering entrance exam for NITs, IIITs and GFTIs.",
+      "officialSite": "https://jeemain.nta.nic.in",
+      "sources": [
+        {
+          "name": "Physics Wallah",
+          "url": "https://www.pw.live/jee-main",
+          "type": "course"
+        },
+        {
+          "name": "Vedantu JEE",
+          "url": "https://www.vedantu.com/jee",
+          "type": "course"
+        },
+        {
+          "name": "PYQs — pyqs.org",
+          "url": "https://pyqs.org/jee-main",
+          "type": "pyq"
+        },
+        {
+          "name": "Unacademy JEE",
+          "url": "https://unacademy.com/goal/jee/TMHFL",
+          "type": "course"
+        },
+        {
+          "name": "Etoos India",
+          "url": "https://www.etoosindia.com",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "jee-advanced",
+      "name": "JEE Advanced 2026",
+      "shortName": "JEE Adv",
+      "color": "#a855f7",
+      "icon": "🏛️",
+      "sessions": [
+        {
+          "name": "Paper 1 & 2",
+          "dates": "May 24, 2026",
+          "isoStart": "2026-05-24"
+        }
+      ],
+      "nextDate": "2026-05-24",
+      "registrationDeadline": "Apr 30, 2026",
+      "registrationDeadlineIso": "2026-04-30",
+      "conductedBy": "IIT Bombay (2026)",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics"
+      ],
+      "totalMarks": 360,
+      "duration": "3 hours × 2 papers",
+      "description": "Gateway to IITs. Only top 2.5 lakh JEE Main qualifiers are eligible.",
+      "officialSite": "https://jeeadv.ac.in",
+      "sources": [
+        {
+          "name": "Resonance DLP",
+          "url": "https://www.resonance.ac.in",
+          "type": "course"
+        },
+        {
+          "name": "Allen Study Material",
+          "url": "https://www.allen.ac.in",
+          "type": "course"
+        },
+        {
+          "name": "JEE Adv PYQs",
+          "url": "https://pyqs.org/jee-advanced",
+          "type": "pyq"
+        },
+        {
+          "name": "Arjuna JEE (PW)",
+          "url": "https://www.pw.live/jee-adv",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "neet",
+      "name": "NEET-UG 2026",
+      "shortName": "NEET",
+      "color": "#22c55e",
+      "icon": "🩺",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "May 3, 2026",
+          "isoStart": "2026-05-03"
+        }
+      ],
+      "nextDate": "2026-05-03",
+      "registrationDeadline": "Mar 18, 2026",
+      "registrationDeadlineIso": "2026-03-18",
+      "conductedBy": "NTA",
+      "mode": "OMR / Offline",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Biology (Botany + Zoology)"
+      ],
+      "totalMarks": 720,
+      "duration": "3 hours 20 minutes",
+      "description": "National medical entrance for MBBS/BDS in government and private colleges.",
+      "officialSite": "https://neet.nta.nic.in",
+      "sources": [
+        {
+          "name": "NEET PW Batch",
+          "url": "https://www.pw.live/neet",
+          "type": "course"
+        },
+        {
+          "name": "Aakash NEET",
+          "url": "https://www.aakash.ac.in",
+          "type": "course"
+        },
+        {
+          "name": "NEET PYQs",
+          "url": "https://pyqs.org/neet",
+          "type": "pyq"
+        },
+        {
+          "name": "NEET Wallah YT",
+          "url": "https://youtube.com/@NEETWallah",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "id": "pgcet",
+      "name": "PGCET 2026",
+      "shortName": "PGCET",
+      "color": "#06b6d4",
+      "icon": "🎓",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "Jul 2026 (TBA)",
+          "isoStart": "2026-07-01"
+        }
+      ],
+      "nextDate": "2026-07-01",
+      "registrationDeadline": "May 31, 2026",
+      "registrationDeadlineIso": "2026-05-31",
+      "conductedBy": "KEA (Karnataka)",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Core Engineering / Science Subjects"
+      ],
+      "totalMarks": 100,
+      "duration": "2 hours",
+      "description": "Postgraduate Common Entrance Test for M.Tech/MCA seats in Karnataka.",
+      "officialSite": "https://kea.kar.nic.in",
+      "sources": [
+        {
+          "name": "KEA PGCET Portal",
+          "url": "https://kea.kar.nic.in",
+          "type": "official"
+        }
+      ]
+    },
+    {
+      "id": "viteee",
+      "name": "VITEEE 2026",
+      "shortName": "VITEEE",
+      "color": "#8b5cf6",
+      "icon": "🎓",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "April 19 - 30, 2026",
+          "isoStart": "2026-04-19"
+        }
+      ],
+      "nextDate": "2026-04-19",
+      "registrationDeadline": "Feb 28, 2026",
+      "registrationDeadlineIso": "2026-02-28",
+      "conductedBy": "VIT",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Maths/Bio",
+        "Physics",
+        "Chemistry",
+        "English",
+        "Aptitude"
+      ],
+      "totalMarks": 125,
+      "duration": "2 hours 30 mins",
+      "description": "Admission to B.Tech programs at VIT campuses.",
+      "officialSite": "https://viteee.vit.ac.in/",
+      "sources": []
+    },
+    {
+      "id": "wbjee",
+      "name": "WBJEE 2026",
+      "shortName": "WBJEE",
+      "color": "#14b8a6",
+      "icon": "🌉",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "April 2026",
+          "isoStart": "2026-04-20"
+        }
+      ],
+      "nextDate": "2026-04-20",
+      "registrationDeadline": "Feb 20, 2026",
+      "registrationDeadlineIso": "2026-02-20",
+      "conductedBy": "WBJEEB",
+      "mode": "OMR based",
+      "subjects": [
+        "Mathematics",
+        "Physics",
+        "Chemistry"
+      ],
+      "totalMarks": 200,
+      "duration": "4 hours",
+      "description": "West Bengal Joint Entrance Examinations.",
+      "officialSite": "https://wbjeeb.nic.in/",
+      "sources": []
+    },
+    {
+      "id": "nda",
+      "name": "NDA & NA (I) 2026",
+      "shortName": "NDA",
+      "color": "#ef4444",
+      "icon": "🪖",
+      "sessions": [
+        {
+          "name": "NDA I",
+          "dates": "April 2026",
+          "isoStart": "2026-04-15"
+        }
+      ],
+      "nextDate": "2026-04-15",
+      "registrationDeadline": "Jan 7, 2026",
+      "registrationDeadlineIso": "2026-01-07",
+      "conductedBy": "UPSC",
+      "mode": "Offline",
+      "subjects": [
+        "Mathematics",
+        "General Ability"
+      ],
+      "totalMarks": 900,
+      "duration": "5 hours",
+      "description": "National Defence Academy & Naval Academy Examination.",
+      "officialSite": "https://upsc.gov.in/",
+      "sources": []
+    },
+    {
+      "id": "iat",
+      "name": "IISER Aptitude Test 2026",
+      "shortName": "IAT",
+      "color": "#f59e0b",
+      "icon": "🔬",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "June 2026",
+          "isoStart": "2026-06-09"
+        }
+      ],
+      "nextDate": "2026-06-09",
+      "registrationDeadline": "Apr 25, 2026",
+      "registrationDeadlineIso": "2026-04-25",
+      "conductedBy": "IISER",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Biology",
+        "Chemistry",
+        "Mathematics",
+        "Physics"
+      ],
+      "totalMarks": 240,
+      "duration": "3 hours",
+      "description": "Admission to BS-MS dual degree programs at IISERs.",
+      "officialSite": "https://iiseradmission.in/",
+      "sources": []
+    },
+    {
+      "id": "nest",
+      "name": "NEST 2026",
+      "shortName": "NEST",
+      "color": "#10b981",
+      "icon": "🧬",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "June 2026",
+          "isoStart": "2026-06-25"
+        }
+      ],
+      "nextDate": "2026-06-25",
+      "registrationDeadline": "May 10, 2026",
+      "registrationDeadlineIso": "2026-05-10",
+      "conductedBy": "NISER & UM-DAE CEBS",
+      "mode": "Computer Based Test",
+      "subjects": [
+        "Biology",
+        "Chemistry",
+        "Mathematics",
+        "Physics"
+      ],
+      "totalMarks": 200,
+      "duration": "3.5 hours",
+      "description": "National Entrance Screening Test for NISER and CEBS.",
+      "officialSite": "https://www.nestexam.in/",
+      "sources": []
+    },
+    {
+      "id": "mht-cet",
+      "name": "MHT CET 2026",
+      "shortName": "MHT CET",
+      "color": "#10b981",
+      "icon": "⛰️",
+      "sessions": [
+        {
+          "name": "PCM Group",
+          "dates": "May 2 – 17, 2026",
+          "isoStart": "2026-05-02"
+        },
+        {
+          "name": "PCB Group",
+          "dates": "May 19 – 28, 2026",
+          "isoStart": "2026-05-19"
+        }
+      ],
+      "nextDate": "2026-05-02",
+      "registrationDeadline": "Mar 31, 2026",
+      "registrationDeadlineIso": "2026-03-31",
+      "conductedBy": "Maharashtra State CET Cell",
+      "mode": "Computer Based Test (CBT)",
+      "subjects": ["Physics", "Chemistry", "Mathematics"],
+      "totalMarks": 200,
+      "duration": "3 hours (2 papers × 90 min)",
+      "description": "Maharashtra Common Entrance Test for admission to B.E./B.Tech, B.Pharm and Pharm.D courses in Maharashtra colleges.",
+      "officialSite": "https://cetcell.mahacet.org/",
+      "sources": [
+        { "name": "Official CET Cell", "url": "https://cetcell.mahacet.org/", "type": "official" },
+        { "name": "MHT CET PW Batch", "url": "https://www.pw.live/mht-cet", "type": "course" },
+        { "name": "Target Publications", "url": "https://www.targetpublications.org/", "type": "course" },
+        { "name": "MHT CET PYQs", "url": "https://mhtcet.mahaonline.gov.in/", "type": "pyq" },
+        { "name": "Unacademy MHT CET", "url": "https://unacademy.com/goal/mht-cet/HTCET", "type": "course" }
+      ]
+    },
+    {
+      "id": "comedk",
+      "name": "COMEDK UGET 2026",
+      "shortName": "COMEDK",
+      "color": "#3b82f6",
+      "icon": "🏛️",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "May 11, 2026",
+          "isoStart": "2026-05-11"
+        }
+      ],
+      "nextDate": "2026-05-11",
+      "registrationDeadline": "Apr 15, 2026",
+      "registrationDeadlineIso": "2026-04-15",
+      "conductedBy": "COMEDK (Consortium of Medical, Engineering & Dental Colleges of Karnataka)",
+      "mode": "Computer Based Test (CBT)",
+      "subjects": ["Physics", "Chemistry", "Mathematics"],
+      "totalMarks": 180,
+      "duration": "3 hours (60 questions per subject)",
+      "description": "Consortium of Medical, Engineering & Dental Colleges of Karnataka UGET. Provides admission to 190+ private engineering colleges in Karnataka.",
+      "officialSite": "https://www.comedk.org/",
+      "sources": [
+        { "name": "Official COMEDK Portal", "url": "https://www.comedk.org/", "type": "official" },
+        { "name": "Embibe COMEDK", "url": "https://www.embibe.com/exams/comedk/", "type": "course" },
+        { "name": "COMEDK PYQs", "url": "https://www.shaalaa.com/question-bank-solutions/comedk", "type": "pyq" },
+        { "name": "Allen COMEDK", "url": "https://www.allen.ac.in/", "type": "course" }
+      ]
+    },
+    {
+      "id": "bitsat",
+      "name": "BITSAT 2026",
+      "shortName": "BITSAT",
+      "color": "#f59e0b",
+      "icon": "⚙️",
+      "sessions": [
+        {
+          "name": "Session 1",
+          "dates": "May 2026",
+          "isoStart": "2026-05-19"
+        },
+        {
+          "name": "Session 2",
+          "dates": "June 2026",
+          "isoStart": "2026-06-22"
+        }
+      ],
+      "nextDate": "2026-05-19",
+      "registrationDeadline": "Mar 15, 2026",
+      "registrationDeadlineIso": "2026-03-15",
+      "conductedBy": "BITS Pilani",
+      "mode": "CBT",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "English",
+        "Reasoning",
+        "Mathematics"
+      ],
+      "totalMarks": 390,
+      "duration": "3 hours",
+      "description": "Birla Institute of Technology and Science Admission Test.",
+      "officialSite": "https://bitsadmission.com/",
+      "sources": [
+        { "name": "Official BITS Admission", "url": "https://bitsadmission.com/", "type": "official" },
+        { "name": "BITSAT PW Batch", "url": "https://www.pw.live/bitsat", "type": "course" },
+        { "name": "BITSAT PYQs", "url": "https://pyqs.org/bitsat", "type": "pyq" },
+        { "name": "Embibe BITSAT", "url": "https://www.embibe.com/exams/bitsat/", "type": "course" },
+        { "name": "Arihant BITSAT Book", "url": "https://www.arihantbooks.com", "type": "course" }
+      ]
+    },
+    {
+      "id": "kcet",
+      "name": "KCET 2026",
+      "shortName": "KCET",
+      "color": "#ec4899",
+      "icon": "🌾",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "April 2026",
+          "isoStart": "2026-04-18"
+        }
+      ],
+      "nextDate": "2026-04-18",
+      "registrationDeadline": "Feb 25, 2026",
+      "registrationDeadlineIso": "2026-02-25",
+      "conductedBy": "KEA",
+      "mode": "Offline",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology"
+      ],
+      "totalMarks": 180,
+      "duration": "4 hours",
+      "description": "Karnataka Common Entrance Test.",
+      "officialSite": "https://cetonline.karnataka.gov.in/kea/",
+      "sources": [
+        { "name": "Official KEA Portal", "url": "https://cetonline.karnataka.gov.in/kea/", "type": "official" },
+        { "name": "KCET PYQs", "url": "https://www.shaalaa.com/question-bank-solutions/kcet", "type": "pyq" },
+        { "name": "Unacademy KCET", "url": "https://unacademy.com/goal/kcet", "type": "course" },
+        { "name": "Target KCET", "url": "https://www.targetpublications.org/", "type": "course" },
+        { "name": "KCET Exam Analysis", "url": "https://www.careers360.com/exams/kcet", "type": "course" }
+      ]
+    },
+    {
+      "id": "ap-eamcet",
+      "name": "AP EAMCET 2026",
+      "shortName": "AP EAPCET",
+      "color": "#8b5cf6",
+      "icon": "🌅",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "May 2026",
+          "isoStart": "2026-05-15"
+        }
+      ],
+      "nextDate": "2026-05-15",
+      "registrationDeadline": "Mar 31, 2026",
+      "registrationDeadlineIso": "2026-03-31",
+      "conductedBy": "JNTU",
+      "mode": "CBT",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology"
+      ],
+      "totalMarks": 160,
+      "duration": "3 hours",
+      "description": "Andhra Pradesh state entrance exam.",
+      "officialSite": "https://cets.apsche.ap.gov.in/",
+      "sources": [
+        { "name": "Official AP EAPCET Portal", "url": "https://cets.apsche.ap.gov.in/", "type": "official" },
+        { "name": "AP EAPCET PYQs", "url": "https://sche.ap.gov.in/EAPCET", "type": "pyq" },
+        { "name": "Sakshi Education", "url": "https://www.sakshieducation.com/EAMCET.aspx", "type": "course" },
+        { "name": "Manabadi AP EAMCET", "url": "https://www.manabadi.co.in", "type": "course" }
+      ]
+    },
+    {
+      "id": "ts-eamcet",
+      "name": "TS EAMCET 2026",
+      "shortName": "TS EAPCET",
+      "color": "#6366f1",
+      "icon": "🏰",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "May 2026",
+          "isoStart": "2026-05-09"
+        }
+      ],
+      "nextDate": "2026-05-09",
+      "registrationDeadline": "Mar 28, 2026",
+      "registrationDeadlineIso": "2026-03-28",
+      "conductedBy": "JNTUH",
+      "mode": "CBT",
+      "subjects": [
+        "Physics",
+        "Chemistry",
+        "Mathematics",
+        "Biology"
+      ],
+      "totalMarks": 160,
+      "duration": "3 hours",
+      "description": "Telangana state entrance exam.",
+      "officialSite": "https://eapcet.tsche.ac.in/",
+      "sources": [
+        { "name": "Official TS EAPCET Portal", "url": "https://eapcet.tsche.ac.in/", "type": "official" },
+        { "name": "TS EAPCET PYQs", "url": "https://tsche.ac.in/EAPCET", "type": "pyq" },
+        { "name": "Sakshi Education TS", "url": "https://www.sakshieducation.com/EAMCET.aspx", "type": "course" },
+        { "name": "TS EAPCET Analysis", "url": "https://www.careers360.com/exams/ts-eamcet", "type": "course" }
+      ]
+    },
+    {
+      "id": "jipmer",
+      "name": "JIPMER Nursing 2026",
+      "shortName": "JIPMER",
+      "color": "#0ea5e9",
+      "icon": "🏥",
+      "sessions": [
+        {
+          "name": "Main Exam",
+          "dates": "June 2026",
+          "isoStart": "2026-06-30"
+        }
+      ],
+      "nextDate": "2026-06-30",
+      "registrationDeadline": "May 15, 2026",
+      "registrationDeadlineIso": "2026-05-15",
+      "conductedBy": "JIPMER",
+      "mode": "CBT",
+      "subjects": ["Physics", "Chemistry", "Biology", "Logic"],
+      "totalMarks": 100,
+      "duration": "1.5 hours",
+      "description": "JIPMER Entrance for nursing and paramedical programs.",
+      "officialSite": "https://jipmer.edu.in/",
+      "sources": [
+        { "name": "Official JIPMER Site", "url": "https://jipmer.edu.in/", "type": "official" },
+        { "name": "JIPMER PYQs", "url": "https://www.careers360.com/exams/jipmer", "type": "pyq" },
+        { "name": "JIPMER Study Material", "url": "https://www.pw.live/neet", "type": "course" }
+      ]
+    }
+  ],
+  "colleges": {
+    "jee-main": [
+      {
+        "id": "c1",
+        "name": "IIT Madras",
+        "type": "govt",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "cutoffRank": 100,
+        "fees": 200000,
+        "nirf": 1,
+        "placement": "₹25 LPA avg"
+      },
+      {
+        "id": "c2",
+        "name": "IIT Delhi",
+        "type": "govt",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "cutoffRank": 150,
+        "fees": 200000,
+        "nirf": 2,
+        "placement": "₹27 LPA avg"
+      },
+      {
+        "id": "c3",
+        "name": "IIT Bombay",
+        "type": "govt",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "cutoffRank": 120,
+        "fees": 200000,
+        "nirf": 3,
+        "placement": "₹30 LPA avg"
+      },
+      {
+        "id": "c4",
+        "name": "NIT Trichy",
+        "type": "govt",
+        "city": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "cutoffRank": 3500,
+        "fees": 150000,
+        "nirf": 8,
+        "placement": "₹14 LPA avg"
+      },
+      {
+        "id": "c5",
+        "name": "NIT Warangal",
+        "type": "govt",
+        "city": "Warangal",
+        "state": "Telangana",
+        "cutoffRank": 4000,
+        "fees": 145000,
+        "nirf": 9,
+        "placement": "₹13 LPA avg"
+      },
+      {
+        "id": "c6",
+        "name": "NIT Surathkal",
+        "type": "govt",
+        "city": "Surathkal",
+        "state": "Karnataka",
+        "cutoffRank": 5000,
+        "fees": 130000,
+        "nirf": 14,
+        "placement": "₹12 LPA avg"
+      },
+      {
+        "id": "c7",
+        "name": "VIT Vellore",
+        "type": "private",
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "cutoffRank": 50000,
+        "fees": 450000,
+        "nirf": 11,
+        "placement": "₹8 LPA avg"
+      },
+      {
+        "id": "c8",
+        "name": "SRM Chennai",
+        "type": "private",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "cutoffRank": 80000,
+        "fees": 400000,
+        "nirf": 25,
+        "placement": "₹7 LPA avg"
+      },
+      {
+        "id": "c9",
+        "name": "Manipal MIT",
+        "type": "private",
+        "city": "Manipal",
+        "state": "Karnataka",
+        "cutoffRank": 60000,
+        "fees": 500000,
+        "nirf": 20,
+        "placement": "₹9 LPA avg"
+      },
+      {
+        "id": "c10",
+        "name": "IIIT Hyderabad",
+        "type": "govt",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "cutoffRank": 2000,
+        "fees": 250000,
+        "nirf": 10,
+        "placement": "₹20 LPA avg"
+      }
+    ],
+    "jee-advanced": [
+      {
+        "id": "a1",
+        "name": "IIT Bombay — CS",
+        "type": "govt",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "cutoffRank": 80,
+        "fees": 220000,
+        "nirf": 3,
+        "placement": "₹40 LPA avg"
+      },
+      {
+        "id": "a2",
+        "name": "IIT Delhi — CS",
+        "type": "govt",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "cutoffRank": 100,
+        "fees": 220000,
+        "nirf": 2,
+        "placement": "₹38 LPA avg"
+      },
+      {
+        "id": "a3",
+        "name": "IIT Madras — CS",
+        "type": "govt",
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "cutoffRank": 120,
+        "fees": 200000,
+        "nirf": 1,
+        "placement": "₹35 LPA avg"
+      },
+      {
+        "id": "a4",
+        "name": "IIT Kharagpur",
+        "type": "govt",
+        "city": "Kharagpur",
+        "state": "West Bengal",
+        "cutoffRank": 2000,
+        "fees": 200000,
+        "nirf": 5,
+        "placement": "₹22 LPA avg"
+      },
+      {
+        "id": "a5",
+        "name": "IIT Roorkee",
+        "type": "govt",
+        "city": "Roorkee",
+        "state": "Uttarakhand",
+        "cutoffRank": 3000,
+        "fees": 200000,
+        "nirf": 6,
+        "placement": "₹20 LPA avg"
+      }
+    ],
+    "neet": [
+      {
+        "id": "n1",
+        "name": "AIIMS New Delhi",
+        "type": "govt",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "cutoffRank": 50,
+        "fees": 5000,
+        "nirf": 1,
+        "placement": "₹18 LPA avg"
+      },
+      {
+        "id": "n2",
+        "name": "JIPMER Puducherry",
+        "type": "govt",
+        "city": "Puducherry",
+        "state": "Puducherry",
+        "cutoffRank": 200,
+        "fees": 1000,
+        "nirf": 2,
+        "placement": "₹15 LPA avg"
+      },
+      {
+        "id": "n3",
+        "name": "Maulana Azad Medical",
+        "type": "govt",
+        "city": "New Delhi",
+        "state": "Delhi",
+        "cutoffRank": 500,
+        "fees": 50000,
+        "nirf": 5,
+        "placement": "₹12 LPA avg"
+      },
+      {
+        "id": "n4",
+        "name": "Kasturba Medical Manipal",
+        "type": "private",
+        "city": "Manipal",
+        "state": "Karnataka",
+        "cutoffRank": 5000,
+        "fees": 2500000,
+        "nirf": 12,
+        "placement": "₹14 LPA avg"
+      },
+      {
+        "id": "n5",
+        "name": "Christian Medical Vellore",
+        "type": "private",
+        "city": "Vellore",
+        "state": "Tamil Nadu",
+        "cutoffRank": 500,
+        "fees": 100000,
+        "nirf": 3,
+        "placement": "₹15 LPA avg"
+      }
+    ],
+    "kcet": [
+      {
+        "id": "k1",
+        "name": "RV College of Engineering",
+        "type": "private",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "cutoffRank": 500,
+        "fees": 250000,
+        "nirf": 50,
+        "placement": "₹9 LPA avg"
+      },
+      {
+        "id": "k2",
+        "name": "BMS College of Engineering",
+        "type": "private",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "cutoffRank": 800,
+        "fees": 200000,
+        "nirf": 60,
+        "placement": "₹8 LPA avg"
+      },
+      {
+        "id": "k3",
+        "name": "NIE Mysuru",
+        "type": "private",
+        "city": "Mysuru",
+        "state": "Karnataka",
+        "cutoffRank": 2000,
+        "fees": 150000,
+        "nirf": 80,
+        "placement": "₹7 LPA avg"
+      },
+      {
+        "id": "k4",
+        "name": "UVCE Bengaluru",
+        "type": "govt",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "cutoffRank": 1000,
+        "fees": 50000,
+        "nirf": 45,
+        "placement": "₹8 LPA avg"
+      },
+      {
+        "id": "k5",
+        "name": "PES University",
+        "type": "private",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "cutoffRank": 3000,
+        "fees": 400000,
+        "nirf": 35,
+        "placement": "₹10 LPA avg"
+      }
+    ],
+    "bitsat": [
+      {
+        "id": "b1",
+        "name": "BITS Pilani — CS",
+        "type": "private",
+        "city": "Pilani",
+        "state": "Rajasthan",
+        "cutoffRank": 280,
+        "fees": 600000,
+        "nirf": 26,
+        "placement": "₹22 LPA avg"
+      },
+      {
+        "id": "b2",
+        "name": "BITS Goa — CS",
+        "type": "private",
+        "city": "Goa",
+        "state": "Goa",
+        "cutoffRank": 295,
+        "fees": 600000,
+        "nirf": 27,
+        "placement": "₹20 LPA avg"
+      },
+      {
+        "id": "b3",
+        "name": "BITS Hyderabad — CS",
+        "type": "private",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "cutoffRank": 310,
+        "fees": 590000,
+        "nirf": 28,
+        "placement": "₹19 LPA avg"
+      },
+      {
+        "id": "b4",
+        "name": "BITS Pilani — ECE",
+        "type": "private",
+        "city": "Pilani",
+        "state": "Rajasthan",
+        "cutoffRank": 350,
+        "fees": 600000,
+        "nirf": 26,
+        "placement": "₹18 LPA avg"
+      }
+    ],
+    "mht-cet": [
+      { "id": "mc1", "name": "VJTI Mumbai", "type": "govt", "city": "Mumbai", "state": "Maharashtra", "cutoffRank": 500, "fees": 80000, "nirf": 40, "placement": "₹9 LPA avg" },
+      { "id": "mc2", "name": "COEP Pune", "type": "govt", "city": "Pune", "state": "Maharashtra", "cutoffRank": 700, "fees": 60000, "nirf": 45, "placement": "₹8 LPA avg" },
+      { "id": "mc3", "name": "ICT Mumbai", "type": "govt", "city": "Mumbai", "state": "Maharashtra", "cutoffRank": 1000, "fees": 100000, "nirf": 48, "placement": "₹10 LPA avg" },
+      { "id": "mc4", "name": "PICT Pune", "type": "private", "city": "Pune", "state": "Maharashtra", "cutoffRank": 2000, "fees": 200000, "nirf": 70, "placement": "₹8 LPA avg" },
+      { "id": "mc5", "name": "Symbiosis Institute of Tech", "type": "private", "city": "Pune", "state": "Maharashtra", "cutoffRank": 5000, "fees": 350000, "nirf": 80, "placement": "₹7 LPA avg" }
+    ],
+    "comedk": [
+      { "id": "cd1", "name": "RV College of Engineering", "type": "private", "city": "Bengaluru", "state": "Karnataka", "cutoffRank": 500, "fees": 250000, "nirf": 50, "placement": "₹9 LPA avg" },
+      { "id": "cd2", "name": "BMS College of Engineering", "type": "private", "city": "Bengaluru", "state": "Karnataka", "cutoffRank": 800, "fees": 200000, "nirf": 60, "placement": "₹8 LPA avg" },
+      { "id": "cd3", "name": "MS Ramaiah Inst. of Tech", "type": "private", "city": "Bengaluru", "state": "Karnataka", "cutoffRank": 1200, "fees": 220000, "nirf": 62, "placement": "₹8.5 LPA avg" },
+      { "id": "cd4", "name": "PES University", "type": "private", "city": "Bengaluru", "state": "Karnataka", "cutoffRank": 2000, "fees": 400000, "nirf": 35, "placement": "₹10 LPA avg" },
+      { "id": "cd5", "name": "Dayananda Sagar College", "type": "private", "city": "Bengaluru", "state": "Karnataka", "cutoffRank": 3500, "fees": 180000, "nirf": 85, "placement": "₹7 LPA avg" }
+    ]
+  },
+  "syllabus": {
+    "jee-main": {
+      "Physics": [
+        "Units & Measurements",
+        "Kinematics",
+        "Laws of Motion",
+        "Work, Energy & Power",
+        "Rotational Motion",
+        "Gravitation",
+        "Properties of Solids & Liquids",
+        "Thermodynamics",
+        "Kinetic Theory of Gases",
+        "Oscillations & Waves",
+        "Electrostatics",
+        "Current Electricity",
+        "Magnetic Effects of Current",
+        "Electromagnetic Induction & AC",
+        "Electromagnetic Waves",
+        "Optics",
+        "Dual Nature of Matter & Radiation",
+        "Atoms & Nuclei",
+        "Electronic Devices",
+        "Communication Systems"
+      ],
+      "Chemistry": [
+        "Some Basic Concepts",
+        "States of Matter",
+        "Atomic Structure",
+        "Chemical Bonding",
+        "Thermodynamics",
+        "Equilibrium",
+        "Redox Reactions",
+        "Hydrogen",
+        "s-Block Elements",
+        "p-Block Elements",
+        "d & f Block Elements",
+        "Coordination Compounds",
+        "Environmental Chemistry",
+        "Organic Chemistry Basics",
+        "Hydrocarbons",
+        "Haloalkanes & Haloarenes",
+        "Alcohols Phenols Ethers",
+        "Aldehydes Ketones Acids",
+        "Organic Compounds with Nitrogen",
+        "Biomolecules",
+        "Polymers",
+        "Chemistry in Everyday Life"
+      ],
+      "Mathematics": [
+        "Sets Relations Functions",
+        "Complex Numbers",
+        "Quadratic Equations",
+        "Sequences & Series",
+        "Binomial Theorem",
+        "Permutations & Combinations",
+        "Mathematical Induction",
+        "Limits Continuity Differentiability",
+        "Integrals",
+        "Differential Equations",
+        "Coordinate Geometry",
+        "3D Geometry",
+        "Vector Algebra",
+        "Statistics & Probability",
+        "Trigonometry",
+        "Mathematical Reasoning",
+        "Matrices & Determinants"
+      ]
+    },
+    "neet": {
+      "Physics": [
+        "Physical World & Measurement",
+        "Kinematics",
+        "Laws of Motion",
+        "Work Energy Power",
+        "Motion of System of Particles",
+        "Gravitation",
+        "Properties of Bulk Matter",
+        "Heat & Thermodynamics",
+        "Oscillations & Waves",
+        "Electrostatics",
+        "Current Electricity",
+        "Magnetic Effects",
+        "Electromagnetic Induction",
+        "Electromagnetic Waves",
+        "Optics",
+        "Dual Nature of Radiation",
+        "Atoms & Nuclei",
+        "Electronic Devices"
+      ],
+      "Chemistry": [
+        "Basic Concepts",
+        "Structure of Atom",
+        "Classification of Elements",
+        "Chemical Bonding",
+        "States of Matter",
+        "Thermodynamics",
+        "Equilibrium",
+        "Redox Reactions",
+        "Hydrogen",
+        "s-Block",
+        "p-Block",
+        "Organic Chemistry Basics",
+        "Hydrocarbons",
+        "Environmental Chemistry",
+        "Solid State",
+        "Solutions",
+        "Electrochemistry",
+        "Chemical Kinetics",
+        "Surface Chemistry",
+        "General Principles of Isolation",
+        "d & f Block",
+        "Coordination",
+        "Haloalkanes",
+        "Alcohols Phenols Ethers",
+        "Aldehydes Ketones",
+        "Carboxylic Acids",
+        "Amines",
+        "Biomolecules",
+        "Polymers",
+        "Chemistry in Everyday Life"
+      ],
+      "Biology": [
+        "Diversity of Living Organisms",
+        "Structural Organisation in Animals/Plants",
+        "Cell Structure & Function",
+        "Plant Physiology",
+        "Human Physiology",
+        "Reproduction",
+        "Genetics & Evolution",
+        "Biology in Human Welfare",
+        "Biotechnology",
+        "Ecology"
+      ],
+      "Biology (Botany + Zoology)": [
+        "Cell Biology",
+        "Genetics",
+        "Human Physiology",
+        "Plant Physiology",
+        "Ecology",
+        "Evolution"
+      ]
+    },
+    "jee-advanced": {
+      "Physics": [
+        "General Physics",
+        "Mechanics",
+        "Thermal Physics",
+        "Electricity & Magnetism",
+        "Electromagnetic Induction",
+        "Optics",
+        "Modern Physics"
+      ],
+      "Chemistry": [
+        "Physical Chemistry",
+        "Inorganic Chemistry",
+        "Organic Chemistry"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Trigonometry",
+        "Analytical Geometry",
+        "Differential Calculus",
+        "Integral Calculus",
+        "Vectors"
+      ]
+    },
+    "kcet": {
+      "Physics": [
+        "Mechanics",
+        "Heat",
+        "Optics",
+        "Electricity",
+        "Modern Physics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Inorganic",
+        "Organic"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus",
+        "Geometry",
+        "Statistics",
+        "Trigonometry"
+      ],
+      "Biology": [
+        "Botany",
+        "Zoology",
+        "Ecology",
+        "Genetics",
+        "Biotechnology"
+      ]
+    },
+    "bitsat": {
+      "Physics": [
+        "Mechanics",
+        "Heat",
+        "Optics",
+        "Electricity & Magnetism",
+        "Electronic Devices"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Inorganic",
+        "Organic",
+        "Analytical"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus",
+        "Coordinate Geometry",
+        "Probability",
+        "Trigonometry"
+      ],
+      "English & LR": [
+        "Grammar",
+        "Reading Comprehension",
+        "Logical Reasoning",
+        "Verbal Ability"
+      ],
+      "English": [
+        "Reading Comprehension",
+        "Grammar",
+        "Vocabulary",
+        "Verbal Ability",
+        "Idioms and Phrases"
+      ],
+      "Reasoning": [
+        "Logical Reasoning",
+        "Analytical Reasoning",
+        "Data Interpretation",
+        "Puzzles",
+        "Series Completion"
+      ]
+    },
+    "viteee": {
+      "Physics": [
+        "Mechanics",
+        "Electrodynamics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Organic"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ],
+      "Maths/Bio": [
+        "Algebra",
+        "Calculus",
+        "Coordinate Geometry",
+        "Trigonometry",
+        "Vectors",
+        "Probability",
+        "Matrices"
+      ],
+      "English": [
+        "Reading Comprehension",
+        "Grammar",
+        "Vocabulary",
+        "Verbal Ability",
+        "Idioms and Phrases"
+      ],
+      "Aptitude": [
+        "Unit 1",
+        "Unit 2",
+        "Unit 3",
+        "Unit 4"
+      ]
+    },
+    "wbjee": {
+      "Physics": [
+        "Mechanics",
+        "Optics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Organic"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ]
+    },
+    "nda": {
+      "Mathematics": [
+        "Algebra",
+        "Calculus",
+        "Trigonometry"
+      ],
+      "General Ability": [
+        "English",
+        "General Knowledge",
+        "Physics",
+        "Chemistry"
+      ]
+    },
+    "iat": {
+      "Physics": [
+        "Mechanics",
+        "Optics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Organic"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ],
+      "Biology": [
+        "Cell Biology",
+        "Genetics"
+      ]
+    },
+    "nest": {
+      "Physics": [
+        "Mechanics",
+        "Optics"
+      ],
+      "Chemistry": [
+        "Physical",
+        "Organic"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ],
+      "Biology": [
+        "Cell Biology",
+        "Genetics"
+      ]
+    },
+    "mht-cet": {
+      "Physics": [
+        "Measurements", "Kinematics", "Laws of Motion", "Gravitation",
+        "Rotational Motion", "Oscillations", "Wave Motion",
+        "Kinetic Theory of Gases", "Thermodynamics",
+        "Electrostatics", "Current Electricity", "Magnetic Effects of Current",
+        "Electromagnetic Induction", "Electrons & Photons",
+        "Atoms & Nuclei", "Semiconductors", "Communication Systems"
+      ],
+      "Chemistry": [
+        "Solid State", "Solutions", "Ionic Equilibria", "Chemical Thermodynamics",
+        "Electrochemistry", "Chemical Kinetics", "p-Block Elements",
+        "d & f Block Elements", "Coordination Compounds",
+        "Halogen Derivatives", "Alcohols Phenols Ethers",
+        "Aldehydes Ketones & Acids", "Amines", "Biomolecules",
+        "Polymers", "Chemistry in Everyday Life"
+      ],
+      "Mathematics": [
+        "Mathematical Logic", "Matrices", "Trigonometric Functions",
+        "Pair of Lines", "Vectors", "3D Geometry",
+        "Line", "Plane", "Linear Programming",
+        "Continuity & Differentiability", "Applications of Derivatives",
+        "Integration", "Definite Integrals", "Differential Equations",
+        "Statistics", "Probability"
+      ]
+    },
+    "comedk": {
+      "Physics": [
+        "Electrostatics", "Current Electricity", "Moving Charges & Magnetism",
+        "Magnetism & Matter", "Electromagnetic Induction",
+        "Alternating Current", "Electromagnetic Waves",
+        "Ray Optics", "Wave Optics", "Dual Nature of Radiation",
+        "Atoms", "Nuclei", "Semiconductor Devices",
+        "Mechanics (Class 11 full)", "Waves & Oscillations"
+      ],
+      "Chemistry": [
+        "Solid State", "Solutions", "Electrochemistry", "Chemical Kinetics",
+        "Surface Chemistry", "Isolation of Elements",
+        "p-Block Elements", "d & f Block Elements", "Coordination Compounds",
+        "Haloalkanes & Haloarenes", "Alcohols Phenols Ethers",
+        "Aldehydes Ketones Carboxylic Acids", "Amines",
+        "Biomolecules", "Polymers", "Chemistry in Everyday Life"
+      ],
+      "Mathematics": [
+        "Relations & Functions", "Inverse Trig Functions",
+        "Matrices & Determinants", "Continuity & Differentiability",
+        "Applications of Derivatives", "Integrals",
+        "Applications of Integrals", "Differential Equations",
+        "Vectors", "3D Geometry", "Linear Programming", "Probability"
+      ]
+    },
+    "ap-eamcet": {
+      "Physics": [
+        "Mechanics",
+        "Electrodynamics",
+        "Optics"
+      ],
+      "Chemistry": [
+        "Physical Chemistry",
+        "Organic Chemistry"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ],
+      "Biology": [
+        "Cell Biology",
+        "Genetics",
+        "Human Physiology",
+        "Plant Physiology",
+        "Ecology",
+        "Evolution"
+      ]
+    },
+    "ts-eamcet": {
+      "Physics": [
+        "Mechanics",
+        "Electrodynamics",
+        "Optics"
+      ],
+      "Chemistry": [
+        "Physical Chemistry",
+        "Organic Chemistry"
+      ],
+      "Mathematics": [
+        "Algebra",
+        "Calculus"
+      ],
+      "Biology": [
+        "Cell Biology",
+        "Genetics",
+        "Human Physiology",
+        "Plant Physiology",
+        "Ecology",
+        "Evolution"
+      ]
+    },
+    "jipmer": {
+      "Physics": ["Mechanics", "Electrodynamics", "Optics"],
+      "Chemistry": ["Physical Chemistry", "Organic Chemistry"],
+      "Biology": ["Cell Biology", "Genetics", "Human Physiology", "Ecology"],
+      "Logic": ["Logical Reasoning", "Analytical Reasoning", "Data Interpretation"]
+    },
+    "pgcet": {
+      "Core Engineering / Science Subjects": [
+        "Reading Comprehension",
+        "Grammar",
+        "Vocabulary",
+        "Verbal Ability"
+      ]
+    }
+  },
+  "pyqs": [
+    {
+      "id": "p1",
+      "examId": "jee-main",
+      "year": 2025,
+      "title": "JEE Main Jan 2025 — All Shifts",
+      "url": "https://pyqs.org/jee-main/2025",
+      "type": "link"
+    },
+    {
+      "id": "p2",
+      "examId": "jee-main",
+      "year": 2024,
+      "title": "JEE Main 2024 Complete Set",
+      "url": "https://pyqs.org/jee-main/2024",
+      "type": "link"
+    },
+    {
+      "id": "p3",
+      "examId": "jee-advanced",
+      "year": 2025,
+      "title": "JEE Advanced 2025 Paper 1 & 2",
+      "url": "https://pyqs.org/jee-advanced/2025",
+      "type": "link"
+    },
+    {
+      "id": "p4",
+      "examId": "neet",
+      "year": 2025,
+      "title": "NEET 2025 Question Paper",
+      "url": "https://pyqs.org/neet/2025",
+      "type": "link"
+    },
+    {
+      "id": "p5",
+      "examId": "neet",
+      "year": 2024,
+      "title": "NEET 2024 All Sets",
+      "url": "https://pyqs.org/neet/2024",
+      "type": "link"
+    },
+    {
+      "id": "p6",
+      "examId": "bitsat",
+      "year": 2025,
+      "title": "BITSAT 2025 Memory-Based",
+      "url": "https://pyqs.org/bitsat/2025",
+      "type": "link"
+    },
+    {
+      "id": "p7",
+      "examId": "kcet",
+      "year": 2025,
+      "title": "KCET 2025 Question Paper",
+      "url": "https://pyqs.org/kcet/2025",
+      "type": "link"
+    }
+  ]
+}

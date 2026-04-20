@@ -1,0 +1,335 @@
+{
+  "Physics": [
+    {
+      "chapter": "Kinematics",
+      "formulas": [
+        { "name": "First Equation of Motion", "equation": "v = u + at", "desc": "Final velocity equals initial velocity plus acceleration times time." },
+        { "name": "Second Equation of Motion", "equation": "s = ut + ½at²", "desc": "Displacement with uniform acceleration." },
+        { "name": "Third Equation of Motion", "equation": "v² = u² + 2as", "desc": "Relates velocity, displacement and acceleration." },
+        { "name": "Projectile Range", "equation": "R = u²sin(2θ)/g", "desc": "Horizontal range of a projectile." },
+        { "name": "Maximum Height", "equation": "H = u²sin²θ / 2g", "desc": "Maximum height reached by projectile." },
+        { "name": "Time of Flight", "equation": "T = 2u sinθ / g", "desc": "Total time projectile is in air." }
+      ]
+    },
+    {
+      "chapter": "Laws of Motion",
+      "formulas": [
+        { "name": "Newton's Second Law", "equation": "F = ma", "desc": "Net force equals mass times acceleration." },
+        { "name": "Impulse", "equation": "J = F·Δt = Δp", "desc": "Impulse equals change in momentum." },
+        { "name": "Friction Force", "equation": "f = μN", "desc": "Friction equals coefficient times normal reaction." },
+        { "name": "Linear Momentum", "equation": "p = mv", "desc": "Product of mass and velocity." }
+      ]
+    },
+    {
+      "chapter": "Work, Energy & Power",
+      "formulas": [
+        { "name": "Work Done", "equation": "W = F·d·cosθ", "desc": "Work equals force times displacement times cosine of angle." },
+        { "name": "Kinetic Energy", "equation": "KE = ½mv²", "desc": "Energy due to motion." },
+        { "name": "Potential Energy", "equation": "PE = mgh", "desc": "Gravitational potential energy." },
+        { "name": "Power", "equation": "P = W/t = F·v", "desc": "Rate of doing work." },
+        { "name": "Work-Energy Theorem", "equation": "W_net = ΔKE", "desc": "Net work equals change in kinetic energy." }
+      ]
+    },
+    {
+      "chapter": "Rotational Motion",
+      "formulas": [
+        { "name": "Moment of Inertia", "equation": "I = Σmr²", "desc": "Sum of mass times square of distance from axis." },
+        { "name": "Torque", "equation": "τ = r × F = Iα", "desc": "Rotational equivalent of force." },
+        { "name": "Angular Momentum", "equation": "L = Iω = r × p", "desc": "Rotational equivalent of linear momentum." },
+        { "name": "Rotational KE", "equation": "KE = ½Iω²", "desc": "Kinetic energy of a rotating body." },
+        { "name": "Parallel Axis Theorem", "equation": "I = I_cm + md²", "desc": "Moment of inertia about any parallel axis." }
+      ]
+    },
+    {
+      "chapter": "Gravitation",
+      "formulas": [
+        { "name": "Newton's Law of Gravitation", "equation": "F = Gm₁m₂/r²", "desc": "Gravitational force between two masses." },
+        { "name": "Escape Velocity", "equation": "v_e = √(2GM/R)", "desc": "Minimum speed to escape gravitational pull." },
+        { "name": "Orbital Velocity", "equation": "v_o = √(GM/r)", "desc": "Velocity for circular orbit." },
+        { "name": "Gravitational PE", "equation": "U = -GMm/r", "desc": "Potential energy in gravitational field." },
+        { "name": "Kepler's Third Law", "equation": "T² ∝ r³", "desc": "Square of time period proportional to cube of semi-major axis." }
+      ]
+    },
+    {
+      "chapter": "Current Electricity",
+      "formulas": [
+        { "name": "Ohm's Law", "equation": "V = IR", "desc": "Voltage equals Current times Resistance." },
+        { "name": "Electrical Power", "equation": "P = VI = I²R = V²/R", "desc": "Power dissipated in a resistor." },
+        { "name": "Drift Velocity", "equation": "v_d = I/(nAe)", "desc": "Average velocity of charge carriers." },
+        { "name": "Resistivity", "equation": "R = ρL/A", "desc": "Resistance depends on material, length and area." },
+        { "name": "Kirchhoff's Voltage Law", "equation": "ΣV = 0 (closed loop)", "desc": "Sum of all voltages in a closed loop is zero." },
+        { "name": "Wheatstone Bridge", "equation": "P/Q = R/S", "desc": "Balance condition of a Wheatstone bridge." }
+      ]
+    },
+    {
+      "chapter": "Electromagnetic Induction",
+      "formulas": [
+        { "name": "Faraday's Law", "equation": "ε = -dΦ/dt", "desc": "Induced EMF equals rate of change of flux." },
+        { "name": "Magnetic Flux", "equation": "Φ = B·A·cosθ", "desc": "Flux through a surface in a magnetic field." },
+        { "name": "Self Inductance EMF", "equation": "ε = -L(dI/dt)", "desc": "EMF due to self inductance." },
+        { "name": "Motional EMF", "equation": "ε = Bvl", "desc": "EMF induced by a conductor moving in a field." }
+      ]
+    },
+    {
+      "chapter": "Waves & Oscillations",
+      "formulas": [
+        { "name": "Wave Speed", "equation": "v = fλ", "desc": "Speed equals frequency times wavelength." },
+        { "name": "Simple Pendulum Period", "equation": "T = 2π√(L/g)", "desc": "Time period of a simple pendulum." },
+        { "name": "Spring Oscillation", "equation": "T = 2π√(m/k)", "desc": "Time period of spring-mass system." },
+        { "name": "Doppler Effect", "equation": "f' = f(v±v_o)/(v∓v_s)", "desc": "Apparent frequency change due to relative motion." },
+        { "name": "Beat Frequency", "equation": "f_beat = |f₁ - f₂|", "desc": "Difference in frequencies of two sources." }
+      ]
+    },
+    {
+      "chapter": "Optics",
+      "formulas": [
+        { "name": "Snell's Law", "equation": "n₁sinθ₁ = n₂sinθ₂", "desc": "Law of refraction at interface of two media." },
+        { "name": "Mirror Formula", "equation": "1/f = 1/v + 1/u", "desc": "Relation between focal length, image and object distance." },
+        { "name": "Lens Formula", "equation": "1/f = 1/v - 1/u", "desc": "Thin lens formula." },
+        { "name": "Magnification", "equation": "m = -v/u", "desc": "Ratio of image distance to object distance." },
+        { "name": "Lensmaker's Equation", "equation": "1/f = (n-1)(1/R₁ - 1/R₂)", "desc": "Focal length in terms of radii of curvature." }
+      ]
+    },
+    {
+      "chapter": "Semiconductors",
+      "formulas": [
+        { "name": "Mass Action Law", "equation": "nᵢ² = nₑ × nₕ", "desc": "Intrinsic carrier concentration squared." },
+        { "name": "Conductivity", "equation": "σ = e(nₑμₑ + nₕμₕ)", "desc": "Total conductivity of semiconductor." },
+        { "name": "Diode Equation", "equation": "I = I₀(e^(eV/kT) - 1)", "desc": "Current through a p-n junction diode." }
+      ]
+    },
+    {
+      "chapter": "Thermodynamics",
+      "formulas": [
+        { "name": "First Law", "equation": "ΔU = Q - W", "desc": "Change in internal energy equals heat minus work." },
+        { "name": "Ideal Gas Law", "equation": "PV = nRT", "desc": "Equation of state for ideal gas." },
+        { "name": "Efficiency of Heat Engine", "equation": "η = 1 - T₂/T₁", "desc": "Carnot efficiency between temperatures T₁ and T₂." },
+        { "name": "Specific Heat", "equation": "Q = mcΔT", "desc": "Heat absorbed related to mass, specific heat and temp change." }
+      ]
+    },
+    {
+      "chapter": "Electrostatics",
+      "formulas": [
+        { "name": "Coulomb's Law", "equation": "F = kq₁q₂/r²", "desc": "Force between two point charges." },
+        { "name": "Electric Field", "equation": "E = F/q = kQ/r²", "desc": "Electric field due to a point charge." },
+        { "name": "Electric Potential", "equation": "V = kQ/r", "desc": "Potential due to a point charge." },
+        { "name": "Capacitance", "equation": "C = Q/V", "desc": "Charge stored per unit voltage." },
+        { "name": "Energy in Capacitor", "equation": "U = ½CV² = Q²/2C", "desc": "Energy stored in a capacitor." },
+        { "name": "Parallel Plate Capacitor", "equation": "C = ε₀A/d", "desc": "Capacitance of parallel plate capacitor." }
+      ]
+    }
+  ],
+  "Chemistry": [
+    {
+      "chapter": "Thermodynamics",
+      "formulas": [
+        { "name": "First Law", "equation": "ΔU = q + w", "desc": "Change in internal energy equals heat added plus work done." },
+        { "name": "Enthalpy", "equation": "H = U + PV", "desc": "Internal energy plus pressure-volume product." },
+        { "name": "Gibbs Free Energy", "equation": "ΔG = ΔH - TΔS", "desc": "Determines spontaneity of a reaction." },
+        { "name": "Hess's Law", "equation": "ΔH_rxn = ΣΔH_f(products) - ΣΔH_f(reactants)", "desc": "Enthalpy change is path independent." },
+        { "name": "Entropy", "equation": "ΔS = q_rev / T", "desc": "Entropy change equals reversible heat over temperature." }
+      ]
+    },
+    {
+      "chapter": "Electrochemistry",
+      "formulas": [
+        { "name": "Faraday's First Law", "equation": "m = ZIt", "desc": "Mass deposited proportional to charge passed." },
+        { "name": "Nernst Equation", "equation": "E = E° - (RT/nF)lnQ", "desc": "Cell potential under non-standard conditions." },
+        { "name": "Gibbs-EMF Relation", "equation": "ΔG = -nFE", "desc": "Relates Gibbs free energy to cell EMF." },
+        { "name": "Kohlrausch Law", "equation": "Λ°_m = λ°+ + λ°-", "desc": "Molar conductivity at infinite dilution." }
+      ]
+    },
+    {
+      "chapter": "Chemical Kinetics",
+      "formulas": [
+        { "name": "Rate Law", "equation": "r = k[A]ⁿ[B]ᵐ", "desc": "Rate depends on concentration raised to reaction orders." },
+        { "name": "First Order Half-life", "equation": "t½ = 0.693/k", "desc": "Half-life of a first order reaction." },
+        { "name": "Arrhenius Equation", "equation": "k = Ae^(-Ea/RT)", "desc": "Rate constant depends on activation energy and temperature." },
+        { "name": "Integrated First Order", "equation": "ln[A] = ln[A]₀ - kt", "desc": "Concentration decreases exponentially with time." }
+      ]
+    },
+    {
+      "chapter": "Solutions",
+      "formulas": [
+        { "name": "Molarity", "equation": "M = n/V (in L)", "desc": "Moles of solute per litre of solution." },
+        { "name": "Molality", "equation": "m = n_solute / m_solvent (kg)", "desc": "Moles of solute per kg of solvent." },
+        { "name": "Raoult's Law", "equation": "P = x_A × P°_A", "desc": "Partial pressure equals mole fraction times pure vapour pressure." },
+        { "name": "Osmotic Pressure", "equation": "π = MRT", "desc": "Osmotic pressure of a solution." },
+        { "name": "Elevation of Boiling Point", "equation": "ΔTb = Kb × m", "desc": "Boiling point elevation due to solute." }
+      ]
+    },
+    {
+      "chapter": "Atomic Structure",
+      "formulas": [
+        { "name": "Bohr's Radius", "equation": "rₙ = n²a₀ (a₀ = 0.529 Å)", "desc": "Radius of nth Bohr orbit." },
+        { "name": "Energy of nth Orbit", "equation": "Eₙ = -13.6/n² eV", "desc": "Energy of electron in nth orbit of hydrogen." },
+        { "name": "de Broglie Wavelength", "equation": "λ = h/mv", "desc": "Wave nature of matter." },
+        { "name": "Heisenberg Uncertainty", "equation": "Δx·Δp ≥ h/4π", "desc": "Uncertainty in position times momentum." },
+        { "name": "Rydberg Formula", "equation": "1/λ = R(1/n₁² - 1/n₂²)", "desc": "Wavelength of spectral lines in hydrogen." }
+      ]
+    },
+    {
+      "chapter": "Equilibrium",
+      "formulas": [
+        { "name": "Equilibrium Constant Kc", "equation": "Kc = [C]^c[D]^d / [A]^a[B]^b", "desc": "Ratio of product to reactant concentrations at equilibrium." },
+        { "name": "Relation Kp and Kc", "equation": "Kp = Kc(RT)^Δn", "desc": "Kp relates to Kc via gas constant and moles change." },
+        { "name": "pH Definition", "equation": "pH = -log[H⁺]", "desc": "Negative log of hydrogen ion concentration." },
+        { "name": "Henderson-Hasselbalch", "equation": "pH = pKa + log([A⁻]/[HA])", "desc": "pH of buffer solution." },
+        { "name": "Ionic Product of Water", "equation": "Kw = [H⁺][OH⁻] = 10⁻¹⁴", "desc": "Product of H⁺ and OH⁻ concentrations at 25°C." }
+      ]
+    },
+    {
+      "chapter": "Solid State",
+      "formulas": [
+        { "name": "Density of Crystal", "equation": "d = ZM / (NA × a³)", "desc": "Z = atoms per unit cell, a = edge length." },
+        { "name": "Radius Ratio (Cubic)", "equation": "r/R = 0.414 (octahedral)", "desc": "Determines coordination number of ions." },
+        { "name": "Packing Fraction (FCC)", "equation": "η = 74%", "desc": "Packing efficiency of face-centred cubic." }
+      ]
+    },
+    {
+      "chapter": "Surface Chemistry",
+      "formulas": [
+        { "name": "Freundlich Isotherm", "equation": "x/m = kP^(1/n)", "desc": "Amount adsorbed as function of pressure." },
+        { "name": "Langmuir Isotherm", "equation": "x/m = abP/(1+bP)", "desc": "Monolayer adsorption model." }
+      ]
+    }
+  ],
+  "Mathematics": [
+    {
+      "chapter": "Calculus — Differentiation",
+      "formulas": [
+        { "name": "Product Rule", "equation": "(uv)' = u'v + uv'", "desc": "Derivative of a product of two functions." },
+        { "name": "Quotient Rule", "equation": "(u/v)' = (u'v - uv') / v²", "desc": "Derivative of a quotient." },
+        { "name": "Chain Rule", "equation": "d/dx f(g(x)) = f'(g(x))·g'(x)", "desc": "Derivative of a composite function." },
+        { "name": "Derivative of xⁿ", "equation": "d/dx(xⁿ) = nxⁿ⁻¹", "desc": "Power rule for differentiation." },
+        { "name": "Derivative of sin/cos", "equation": "d/dx(sinx)=cosx, d/dx(cosx)=-sinx", "desc": "Basic trig derivatives." }
+      ]
+    },
+    {
+      "chapter": "Calculus — Integration",
+      "formulas": [
+        { "name": "Power Rule", "equation": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C", "desc": "Integral of a power function." },
+        { "name": "Integration by Parts", "equation": "∫u dv = uv - ∫v du", "desc": "Used when integrand is a product." },
+        { "name": "Definite Integral", "equation": "∫ₐᵇ f(x)dx = F(b) - F(a)", "desc": "Area under curve from a to b." },
+        { "name": "∫sinx dx", "equation": "∫sinx dx = -cosx + C", "desc": "Integral of sine." },
+        { "name": "∫eˣ dx", "equation": "∫eˣ dx = eˣ + C", "desc": "Integral of exponential function." }
+      ]
+    },
+    {
+      "chapter": "Coordinate Geometry",
+      "formulas": [
+        { "name": "Distance Formula", "equation": "d = √((x₂-x₁)²+(y₂-y₁)²)", "desc": "Distance between two points." },
+        { "name": "Section Formula", "equation": "P = ((mx₂+nx₁)/(m+n), (my₂+ny₁)/(m+n))", "desc": "Point dividing a segment in ratio m:n." },
+        { "name": "Slope of Line", "equation": "m = (y₂-y₁)/(x₂-x₁)", "desc": "Gradient of a straight line." },
+        { "name": "Circle Equation", "equation": "(x-h)²+(y-k)² = r²", "desc": "Standard equation of circle with centre (h,k)." },
+        { "name": "Parabola", "equation": "y² = 4ax", "desc": "Standard form, focus at (a,0)." }
+      ]
+    },
+    {
+      "chapter": "Trigonometry",
+      "formulas": [
+        { "name": "Pythagorean Identity", "equation": "sin²θ + cos²θ = 1", "desc": "Fundamental trigonometric identity." },
+        { "name": "Double Angle sin", "equation": "sin2θ = 2sinθcosθ", "desc": "Sine of double angle." },
+        { "name": "Double Angle cos", "equation": "cos2θ = cos²θ - sin²θ", "desc": "Cosine of double angle." },
+        { "name": "Sum to Product", "equation": "sinA+sinB = 2sin((A+B)/2)cos((A-B)/2)", "desc": "Converts sum to product form." },
+        { "name": "Sine Rule", "equation": "a/sinA = b/sinB = c/sinC", "desc": "Sides proportional to sine of opposite angles." },
+        { "name": "Cosine Rule", "equation": "c² = a²+b²-2ab·cosC", "desc": "Generalisation of Pythagoras theorem." }
+      ]
+    },
+    {
+      "chapter": "Algebra — Sequences & Series",
+      "formulas": [
+        { "name": "AP nth Term", "equation": "aₙ = a + (n-1)d", "desc": "nth term of arithmetic progression." },
+        { "name": "AP Sum", "equation": "Sₙ = n/2[2a + (n-1)d]", "desc": "Sum of n terms of AP." },
+        { "name": "GP nth Term", "equation": "aₙ = ar^(n-1)", "desc": "nth term of geometric progression." },
+        { "name": "GP Sum (finite)", "equation": "Sₙ = a(rⁿ-1)/(r-1)", "desc": "Sum of n terms of GP (r≠1)." },
+        { "name": "Sum of Squares", "equation": "Σn² = n(n+1)(2n+1)/6", "desc": "Sum of squares of first n natural numbers." }
+      ]
+    },
+    {
+      "chapter": "Probability & Statistics",
+      "formulas": [
+        { "name": "Probability", "equation": "P(A) = n(A)/n(S)", "desc": "Ratio of favourable to total outcomes." },
+        { "name": "Addition Rule", "equation": "P(A∪B) = P(A)+P(B)-P(A∩B)", "desc": "Probability of A or B." },
+        { "name": "Bayes' Theorem", "equation": "P(A|B) = P(B|A)P(A)/P(B)", "desc": "Conditional probability using prior knowledge." },
+        { "name": "Binomial Distribution Mean", "equation": "μ = np", "desc": "Mean of binomial distribution." },
+        { "name": "Standard Deviation", "equation": "σ = √(Σ(xᵢ-x̄)²/n)", "desc": "Measure of spread of data." }
+      ]
+    },
+    {
+      "chapter": "Vectors & 3D Geometry",
+      "formulas": [
+        { "name": "Dot Product", "equation": "a·b = |a||b|cosθ", "desc": "Scalar product of two vectors." },
+        { "name": "Cross Product Magnitude", "equation": "|a×b| = |a||b|sinθ", "desc": "Magnitude of vector product." },
+        { "name": "Equation of Line (3D)", "equation": "(x-x₁)/l = (y-y₁)/m = (z-z₁)/n", "desc": "Symmetric form of a 3D line." },
+        { "name": "Plane Equation", "equation": "ax + by + cz + d = 0", "desc": "General equation of a plane." },
+        { "name": "Distance Point to Plane", "equation": "d = |ax₁+by₁+cz₁+d|/√(a²+b²+c²)", "desc": "Perpendicular distance from point to plane." }
+      ]
+    },
+    {
+      "chapter": "Complex Numbers & Matrices",
+      "formulas": [
+        { "name": "Euler's Formula", "equation": "e^(iθ) = cosθ + i·sinθ", "desc": "Relates complex exponential to trig functions." },
+        { "name": "Modulus of Complex", "equation": "|z| = √(a²+b²)", "desc": "Distance of complex number from origin." },
+        { "name": "Determinant 2×2", "equation": "|A| = ad - bc", "desc": "Determinant of a 2×2 matrix." },
+        { "name": "Inverse of Matrix", "equation": "A⁻¹ = adj(A)/|A|", "desc": "Matrix inverse via adjugate." }
+      ]
+    }
+  ],
+  "Biology": [
+    {
+      "chapter": "Cell Biology",
+      "formulas": [
+        { "name": "Cell Theory", "equation": "All life = cells; cells from cells", "desc": "Fundamental principles of cell theory." },
+        { "name": "Surface Area to Volume", "equation": "SA/V ratio ↑ → better diffusion", "desc": "Smaller cells exchange materials more efficiently." },
+        { "name": "Osmosis", "equation": "Water moves from low → high solute conc.", "desc": "Passive movement of water across semipermeable membrane." }
+      ]
+    },
+    {
+      "chapter": "Genetics",
+      "formulas": [
+        { "name": "Mendel's Law of Segregation", "equation": "Aa × Aa → 1AA:2Aa:1aa", "desc": "Monohybrid cross genotype ratio." },
+        { "name": "Phenotype Ratio (Monohybrid)", "equation": "3 Dominant : 1 Recessive", "desc": "F2 phenotype ratio in monohybrid cross." },
+        { "name": "Dihybrid Ratio", "equation": "9:3:3:1", "desc": "F2 phenotype ratio in dihybrid cross." },
+        { "name": "Hardy-Weinberg", "equation": "p² + 2pq + q² = 1", "desc": "Allele frequencies in non-evolving population." },
+        { "name": "Allele Frequency", "equation": "p + q = 1", "desc": "Sum of allele frequencies equals 1." }
+      ]
+    },
+    {
+      "chapter": "Photosynthesis",
+      "formulas": [
+        { "name": "Overall Equation", "equation": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂", "desc": "Net reaction of photosynthesis." },
+        { "name": "Light Reaction", "equation": "H₂O → O₂ + H⁺ + e⁻ (photolysis)", "desc": "Splitting of water releases oxygen." },
+        { "name": "Calvin Cycle (net)", "equation": "3CO₂ + 9ATP + 6NADPH → G3P", "desc": "Carbon fixation in the stroma." },
+        { "name": "Quantum Yield", "equation": "8 photons per O₂ evolved", "desc": "Photons required to evolve one molecule of oxygen." }
+      ]
+    },
+    {
+      "chapter": "Respiration",
+      "formulas": [
+        { "name": "Aerobic Respiration", "equation": "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + 38 ATP", "desc": "Complete oxidation of glucose." },
+        { "name": "Glycolysis Net", "equation": "Glucose → 2 Pyruvate + 2 ATP + 2 NADH", "desc": "Net products of glycolysis." },
+        { "name": "Respiratory Quotient", "equation": "RQ = CO₂ released / O₂ consumed", "desc": "RQ = 1 for carbohydrates." }
+      ]
+    },
+    {
+      "chapter": "Human Physiology",
+      "formulas": [
+        { "name": "Cardiac Output", "equation": "CO = HR × SV", "desc": "Heart rate times stroke volume." },
+        { "name": "Normal Blood Pressure", "equation": "120/80 mmHg", "desc": "Systolic/diastolic pressure in healthy adult." },
+        { "name": "Tidal Volume", "equation": "~500 mL per breath", "desc": "Air moved in normal breathing cycle." },
+        { "name": "Vital Capacity", "equation": "VC = IRV + TV + ERV", "desc": "Maximum air exchangeable in lungs." },
+        { "name": "GFR (kidney)", "equation": "~125 mL/min (180 L/day)", "desc": "Glomerular filtration rate in human kidney." }
+      ]
+    },
+    {
+      "chapter": "Ecology",
+      "formulas": [
+        { "name": "Population Growth (Exponential)", "equation": "dN/dt = rN", "desc": "Exponential growth of a population." },
+        { "name": "Logistic Growth", "equation": "dN/dt = rN(K-N)/K", "desc": "Population growth limited by carrying capacity K." },
+        { "name": "Simpson's Index", "equation": "D = 1 - Σ(n/N)²", "desc": "Measure of biodiversity in a community." },
+        { "name": "10% Energy Law", "equation": "Energy passed = 10% of previous level", "desc": "Only 10% of energy transfers between trophic levels." }
+      ]
+    }
+  ]
+}

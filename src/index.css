@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary:   #0a0f1e;
+    --bg-secondary: #0f172a;
+    --bg-card:      #1e293b;
+    --border:       rgba(255,255,255,0.08);
+    --text-primary: #f1f5f9;
+    --text-muted:   #94a3b8;
+    --brand:        #3b82f6;
+    --brand-glow:   rgba(59,130,246,0.3);
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    @apply font-body text-slate-100 antialiased;
+    background-color: var(--bg-primary);
+    background-image:
+      linear-gradient(rgba(59,130,246,0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59,130,246,0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    min-height: 100vh;
+  }
+
+  h1,h2,h3,h4 { @apply font-display; }
+
+  ::-webkit-scrollbar       { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: var(--bg-secondary); }
+  ::-webkit-scrollbar-thumb { background: #334155; border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: #475569; }
+}
+
+@layer components {
+  .card {
+    @apply bg-surface-700 border border-white/[0.06] rounded-2xl p-5;
+  }
+
+  .btn-primary {
+    @apply bg-brand-500 hover:bg-brand-600 text-white font-display font-semibold
+           px-5 py-2.5 rounded-xl transition-all duration-200
+           hover:shadow-[0_0_20px_rgba(59,130,246,0.4)]
+           active:scale-[0.97] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-ghost {
+    @apply bg-white/[0.05] hover:bg-white/[0.1] text-slate-300 hover:text-white
+           font-display font-medium px-4 py-2 rounded-xl border border-white/[0.08]
+           transition-all duration-200 active:scale-[0.97];
+  }
+
+  .input {
+    @apply bg-surface-700 border border-white/[0.1] rounded-xl px-4 py-2.5
+           text-slate-100 placeholder-slate-500 font-body
+           focus:outline-none focus:border-brand-500 focus:ring-1 focus:ring-brand-500/50
+           transition-all duration-200 w-full;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full
+           text-xs font-display font-semibold;
+  }
+
+  .status-not_started  { @apply bg-slate-700/60 text-slate-400; }
+  .status-in_progress  { @apply bg-yellow-500/20 text-yellow-400; }
+  .status-learned      { @apply bg-green-500/20  text-green-400; }
+  .status-pyq_done     { @apply bg-blue-500/20   text-blue-400; }
+
+  .glow-brand {
+    box-shadow: 0 0 30px rgba(59,130,246,0.2), 0 0 60px rgba(59,130,246,0.05);
+  }
+
+  .animate-in {
+    animation: slideUp 0.35s ease forwards;
+  }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #1e293b 25%, #334155 50%, #1e293b 75%);
+  background-size: 200% auto;
+  animation: shimmer 1.5s linear infinite;
+  border-radius: 8px;
+}
