@@ -138,9 +138,9 @@ export function useProgressRadar(examIds) {
     return examIds.map(examId => {
       const subjects = examData.syllabus[examId] || {}
       let total = 0, done = 0
-      Object.entries(subjects).forEach(([, chapters]) => {
+      Object.entries(subjects).forEach(([subject, chapters]) => {
         chapters.forEach(ch => {
-          const id = `${examId}_${ch}`.replace(/\s+/g, '_')
+          const id = `${examId}_${subject}_${ch}`.replace(/\s+/g, '_')
           total++
           const s = progress[id]
           if (s === 'learned' || s === 'pyq_done') done++

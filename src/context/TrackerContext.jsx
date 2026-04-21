@@ -94,21 +94,23 @@ export function TrackerProvider({ children }) {
     })
   }, [user])  // Re-runs every time user changes (login / logout)
 
-  // ── Streak (global, not per user) ─────────────────────────
+  // ── Streak (per user) ─────────────────────────────────────
   useEffect(() => {
+    if (!user) return
+    const uid = user.uid || user.id
     const today = new Date().toDateString()
-    const last  = localStorage.getItem('examhub_last_active')
-    const streak = parseInt(localStorage.getItem('examhub_streak') || '0', 10)
+    const last  = localStorage.getItem(`examhub_last_active_${uid}`)
+    const streak = parseInt(localStorage.getItem(`examhub_streak_${uid}`) || '0', 10)
     if (last === today) {
       dispatch({ type: 'SET_STREAK', payload: streak })
     } else {
       const yesterday = new Date(Date.now() - 86400000).toDateString()
       const newStreak = last === yesterday ? streak + 1 : 1
-      localStorage.setItem('examhub_streak',      String(newStreak))
-      localStorage.setItem('examhub_last_active', today)
+      localStorage.setItem(`examhub_streak_${uid}`, String(newStreak))
+      localStorage.setItem(`examhub_last_active_${uid}`, today)
       dispatch({ type: 'SET_STREAK', payload: newStreak })
     }
-  }, [])
+  }, [user])
 
   // ── updateChapter ─────────────────────────────────────────
   const updateChapter = useCallback(async (chapterId, examId, status) => {

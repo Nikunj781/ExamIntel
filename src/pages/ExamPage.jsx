@@ -186,16 +186,22 @@ export default function ExamPage() {
               {filteredChapters.map((ch, i) => {
                 const cfg = STATUS_CONFIG[ch.status] || STATUS_CONFIG.not_started
                 return (
-                  <button key={ch.id} onClick={() => toggle(ch.id, ch.status)}
+                  <div key={ch.id} 
                     className="flex items-center gap-3 px-4 py-3 rounded-xl bg-surface-700 border border-white/[0.05]
                                hover:border-white/[0.12] transition-all duration-150 text-left group"
                     style={{ animationDelay: `${i * 20}ms` }}>
-                    <span className={`text-xl transition-transform group-hover:scale-110 ${cfg.cls}`}>{cfg.icon}</span>
+                    <button onClick={() => toggle(ch.id, ch.status)} className={`text-xl transition-transform group-hover:scale-110 ${cfg.cls} p-1 rounded-full hover:bg-white/[0.05]`} title="Toggle Status">
+                      {cfg.icon}
+                    </button>
                     <div className="flex-1 min-w-0">
-                      <p className="text-sm font-body text-slate-200 truncate">{ch.name}</p>
+                      <Link to="/test" state={{ exam: examId, subject: current, chapter: ch.name }} className="block group/link">
+                        <p className="text-sm font-body text-slate-200 truncate group-hover/link:text-brand-400 transition-colors" title="Generate Mock PYQs for this chapter">
+                          {ch.name}
+                        </p>
+                      </Link>
                       <p className={`text-xs font-display ${cfg.cls}`}>{cfg.label}</p>
                     </div>
-                  </button>
+                  </div>
                 )
               })}
             </div>

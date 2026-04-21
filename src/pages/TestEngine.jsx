@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { testService, questionActionService } from '../services/firebase'
 import { SectionHeader, Badge } from '../components/ui/PageLoader'
@@ -8,20 +9,41 @@ import { generateRealisticQuestions } from '../utils/questionGenerator'
 
 export default function TestEngine() {
   const { user } = useAuth()
+  const location = useLocation()
+  const navState = location.state || {}
   
   // States: 'config' | 'taking' | 'result'
   const [viewState, setViewState] = useState('config')
   
   // Config state
-  const [selectedExam, setSelectedExam] = useState(examData.exams[0].id)
+  const [selectedExam, setSelectedExam] = useState(navState.exam || examData.exams[0].id)
   const syllabus = useMemo(() => examData.syllabus[selectedExam] || {}, [selectedExam])
   const subjects = Object.keys(syllabus)
-  const [selectedSubject, setSelectedSubject] = useState(subjects[0] || '')
-  const [selectedChapter, setSelectedChapter] = useState('')
+  
+  const [selectedSubject, setSelectedSubject] = useState(navState.subject || subjects[0] || '')
+  
+  const [selectedChapter, setSelectedChapter] = useState(() => {
+    if (navState.chapter) return navState.chapter
+    return syllabus[navState.subject || subjects[0]]?.[0] || ''
+  })
+  
   const [questionCount, setQuestionCount] = useState(5)
   
-  useEffect(() => { setSelectedSubject(subjects[0] || '') }, [selectedExam, subjects])
-  useEffect(() => { setSelectedChapter(syllabus[selectedSubject]?.[0] || '') }, [selectedSubject, syllabus])
+  const handleExamChange = (e) => {
+    const exam = e.target.value
+    setSelectedExam(exam)
+    const newSyllabus = examData.syllabus[exam] || {}
+    const newSubs = Object.keys(newSyllabus)
+    const sub = newSubs[0] || ''
+    setSelectedSubject(sub)
+    setSelectedChapter(newSyllabus[sub]?.[0] || '')
+  }
+  
+  const handleSubjectChange = (e) => {
+    const sub = e.target.value
+    setSelectedSubject(sub)
+    setSelectedChapter(syllabus[sub]?.[0] || '')
+  }
 
   // Test state
   const [questions, setQuestions] = useState([])
@@ -111,13 +133,13 @@ export default function TestEngine() {
         <div className="card space-y-4">
           <div>
             <label className="text-xs font-display text-slate-400 uppercase">Exam</label>
-            <select value={selectedExam} onChange={e => setSelectedExam(e.target.value)} className="input mt-1">
+            <select value={selectedExam} onChange={handleExamChange} className="input mt-1">
               {examData.exams.map(e => <option key={e.id} value={e.id}>{e.name}</option>)}
             </select>
           </div>
           <div>
             <label className="text-xs font-display text-slate-400 uppercase">Subject</label>
-            <select value={selectedSubject} onChange={e => setSelectedSubject(e.target.value)} className="input mt-1">
+            <select value={selectedSubject} onChange={handleSubjectChange} className="input mt-1">
               {subjects.map(s => <option key={s} value={s}>{s}</option>)}
             </select>
           </div>
